@@ -4,7 +4,7 @@ import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 
-import { App } from './App';
+// import { App } from './App';
 import appStore from './app/store';
 
 const container = document.getElementById('root');
@@ -16,7 +16,8 @@ if (container) {
     <StrictMode>
       <Provider store={appStore}>
         <BrowserRouter>
-          <App />
+          <div>l/knjghchxjdzde</div>
+          {/* <App /> */}
         </BrowserRouter>
       </Provider>
     </StrictMode>,

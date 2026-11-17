@@ -1,0 +1,48 @@
+2026.11.17
+До этого(2 дня) отправил свой диплом экономиста.
+Короче открыли доступ к Дипломной работе.
+
+Поискал где подсмотреть, что-то нашёл:
+	- предположительно само ДЗ:
+	https://github.com/netology-code/fe-2-diplom
+	- Figma
+https://www.figma.com/design/7981GjEsjSpBUKolk4xFoT/%25D0%2597%25D0%25B0%25D0%25BA%25D0%25B0%25D0%25B7-%25D0%25B1%25D0%25B8%25D0%25BB%25D0%25B5%25D1%2582%25D0%25BE%25D0%25B2?node-id=0-1&p=f
+	
+	- это походу чьято работа(нашёл яндекс) - гавно(не видно, белый экран, ts)
+	https://github.com/VvitaliiKachaevv356/fe_diplom
+	
+	- bel-lov(она)
+	https://github.com/bel-lov/diplom-react
+	
+	- Пустой ещё(2026.10.09)
+	https://github.com/Dilara0912/fe-diplom-railway-tickets
+	
+	
+	- Работает
+	https://github.com/VvitaliiKachaevv356/fe_diplom
+
+
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+https://qr-code-generator.online/qr-kod.php?ysclid=muz27gdu5642023429#location
+	Озерная 13
+широта:
+52,35931450584779
+долгота:
+140,46346513128282
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

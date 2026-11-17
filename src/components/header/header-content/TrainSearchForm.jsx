@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
 
-import InputWhere from './inputDirections/InputWhere';
-import InputWhereFrom from './inputDirections/InputWhereFrom';
+// import InputWhere from './inputDirections/InputWhere';
+// import InputWhereFrom from './inputDirections/InputWhereFrom';
+import InputsDirection1 from './inputsDirections/InputsDirection1';
+import InputsDirection2 from './inputsDirections/InputsDirection2';
 
 import InputDateWhere from './inputData/InputDateWhere';
 import InputDateWhereFrom from './inputData/InputDateWhereFrom';
@@ -22,22 +24,8 @@ const TrainSearchForm = () => {
 
   const { cities } = useSelector((state) => state.cities);
 
-  useEffect(() => {
-    // console.log(cities);
-    // ChoiceOfCity(cities);
-  }, [cities]);
-
-
   const [inputWhereFrom__value, setInputWhereFrom__value] = useState('');
   const [inputWhere__value, setInputWhere__value] = useState('');
-
-  // const [choosingCity, setChoosingCity] = useState([]);
-
-  // useEffect(() => {
-  //   console.log(choosingCity);
-  // }, [choosingCity]);
-
-
 
   // - Работат, но dispatch
   useEffect(() => {
@@ -82,12 +70,28 @@ const TrainSearchForm = () => {
       <form className='form-search' onSubmit={handleOnSubmit}>
         <div className='fields-of-directions'>
           <h4 className='title-form'>Направление</h4>
+          <div className='inputs__directions'>
+            <InputsDirection1
+              setInputWhereFrom={setInputWhereFrom__value} 
+              inputWhereFrom={inputWhereFrom__value}
+              cities={cities}
+             />
+            <div className='changeDirections'></div>
+            <InputsDirection2 
+              setInputWhereFrom={setInputWhereFrom__value} 
+              inputWhereFrom={inputWhereFrom__value}
+              cities={cities}
+             />
+          </div>
           {/* <br /> */}
-            <InputWhereFrom setInputWhereFrom={setInputWhereFrom__value} inputWhereFrom={inputWhereFrom__value} />
+          {/* <input className='input__directions'>
+            <InputWhereFrom 
+              setInputWhereFrom={setInputWhereFrom__value} 
+              inputWhereFrom={inputWhereFrom__value}
+              cities={cities} />
             <ChoiceOfCity props={cities} />
             <InputWhere where={setInputWhere__value} />
-          
-
+          </input> */}
         </div>
         <div className='dates-of-the-directions'>
           <label className='title-form'>Дата<br />

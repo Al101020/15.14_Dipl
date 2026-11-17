@@ -39,3 +39,30 @@
   border-radius: 3px;
   padding: 5px;
 }
+/*  */
+
+.inputs__directions {
+  display: flex;
+  justify-content: center;
+}
+
+.input_direction {
+  justify-content: center;
+}
+
+.changeDirections {
+  width: 10px;
+  height: 10px;
+  min-width: 10px;
+  min-height: 10px;
+  margin: 0 5px;
+  /* background: ; */
+  background-image: url('./../../../assets/change\ direction.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border: 1px solid black;
+
+  justify-content: center;
+}

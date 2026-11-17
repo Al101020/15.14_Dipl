@@ -5,6 +5,7 @@ import TrainSearchForm from './TrainSearchForm';
 const Header_content = () => {
   return (
     <div className='header-content'>
+      {/* <div></div> */}
       <Heading />
       <TrainSearchForm />
     </div>

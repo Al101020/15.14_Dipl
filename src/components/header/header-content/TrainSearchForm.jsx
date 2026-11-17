@@ -81,11 +81,12 @@ const TrainSearchForm = () => {
     <>
       <form className='form-search' onSubmit={handleOnSubmit}>
         <div className='fields-of-directions'>
-          <label className='title-form'>Направление<br />
+          <h4 className='title-form'>Направление</h4>
+          {/* <br /> */}
             <InputWhereFrom setInputWhereFrom={setInputWhereFrom__value} inputWhereFrom={inputWhereFrom__value} />
             <ChoiceOfCity props={cities} />
             <InputWhere where={setInputWhere__value} />
-          </label>
+          
 
         </div>
         <div className='dates-of-the-directions'>
